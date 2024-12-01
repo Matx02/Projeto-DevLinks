@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --social-links-hover: rgba(255, 255, 255, 0.2);
-  --switch-button-background: url(/assets/moon-stars.svg);
+  --switch-button-background: url(/assets/MoonStarsjpg.jpg);
 }
 .light
 {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --social-links-hover: rgba(0, 0, 0, 0.1);
-  --switch-button-background: url(/assets/sun.svg);
+  --switch-button-background: url(/assets/Sunjpg.jpg);
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -80,6 +80,14 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
+animation: slide-back 0.3s;
+}
+
+.light #switch button {
+  animation: slide-in 0.3s forwards;
+}
+#switch button:hover {
+  outline: 8px solid var(--stroke-color);
 }
 
 #switch span {
