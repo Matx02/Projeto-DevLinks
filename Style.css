@@ -80,14 +80,6 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.3s;
-}
-
-.light #switch button {
-  animation: slide-in 0.3s forwards;
-}
-#switch button:hover {
-  outline: 8px solid var(--stroke-color);
 }
 
 #switch span {
