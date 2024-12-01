@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
   --social-links-hover: rgba(255, 255, 255, 0.2);
-  --switch-button-background: url(/assets/moon-stars.svg);
+  --switch-button-background: url(assets/moon-stars.svg);
 }
 .light
 {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --social-links-hover: rgba(0, 0, 0, 0.1);
-  --switch-button-background: url(/assets/sun.svg);
+  --switch-button-background: url(assets/sun.svg);
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
