@@ -49,6 +49,9 @@ body * {
 
 #profile img {
   width: 112px;
+  border: 2px solid var(--stroke-color);
+  border-radius: 50%;
+ 
 }
 
 #profile p {
@@ -80,7 +83,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-animation: slide-back 0.3s;
+  animation: slide-back 0.3s;
 }
 
 .light #switch button {
